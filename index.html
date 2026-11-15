@@ -1,1 +1,60 @@
-<img src="euler_line_animation.gif" alt="오일러 직선 애니메이션" width="700">
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오일러 직선 시각화 (Euler Line Visualization)</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            text-align: center;
+            max-width: 900px;
+        }
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            color: #38bdf8;
+        }
+        p {
+            color: #94a3b8;
+            margin-bottom: 25px;
+        }
+        .gif-box {
+            background: #1e293b;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+            display: inline-block;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>삼각형의 오일러 직선 (Euler Line) 시각화</h1>
+        <p>외심(O), 무게중심(G), 수심(H)이 일직선 위에 놓이는 성질을 애니메이션으로 시각화한 프로젝트입니다.</p>
+        
+        <div class="gif-box">
+            <img src="euler_line_animation.gif" alt="오일러 직선 애니메이션">
+        </div>
+    </div>
+
+</body>
+</html>
